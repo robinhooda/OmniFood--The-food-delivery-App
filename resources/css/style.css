@@ -97,8 +97,27 @@ header {
     transform: translate(-50%,-50%);
 }
 
-.logo{
+.logo {
     height: 100px;
     width: auto;
     margin-top: 20px;
+    float: left;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 40px;
 }
