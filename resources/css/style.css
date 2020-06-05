@@ -40,6 +40,7 @@ h1 {
 /* -----BUTTONS------- */
 .btn:link,
 .btn:visited { 
+    display: inline-block;
     padding: 10px 30px;
     border-radius: 50px;
     font-weight: 300;
@@ -94,4 +95,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
 }
