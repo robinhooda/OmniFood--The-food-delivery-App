@@ -6,7 +6,7 @@
 
 html {
     background-color: #fff;
-    color: rgb(255, 255, 255);
+    color: #555;
     font-family: 'Lato','Arial',sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -34,5 +34,12 @@ header{
 }
 
 h1{
-    margin:0;
+    margin-top: 0;
+    margin-bottom: 20px;;
+    color: #fff;
+    font-weight: 300;
+    font-size: 240%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
 }
