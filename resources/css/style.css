@@ -18,14 +18,14 @@ html {
     margin: 0 auto;
 }
 
-header{
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
-.hero-text-box{
+.hero-text-box {
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -33,13 +33,32 @@ header{
     transform: translate(-50%,-50%);
 }
 
-h1{
+h1 {
     margin-top: 0;
-    margin-bottom: 20px;;
+    margin-bottom: 25px;;
     color: #fff;
     font-weight: 300;
     font-size: 240%;
     letter-spacing: 1px;
     word-spacing: 4px;
     text-transform: uppercase;
+}
+
+.btn:link,
+.btn:visited { 
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid #e67e22;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #e67e22;
 }
