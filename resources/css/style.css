@@ -105,19 +105,28 @@ header {
 }
 
 .main-nav {
-    list-style: none;
     float: right;
-    margin-top: 55px;
+    margin-top: 60px;
+    list-style: none;
 }
 
 .main-nav li {
     display: inline-block;
 }
 
-.main-nav li a {
+.main-nav li a:link,
+.main-nav li a:visited {
     color: #fff;
+    padding-bottom: 7px;
+    margin-left: 40px;
     font-size: 90%;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 40px;
+    border-bottom: 2px solid transparent ;
+    transition: border-bottom ease-in 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22 ;
 }
