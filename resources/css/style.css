@@ -70,7 +70,7 @@ h3 {
 
 /* ----- PARAGRAPH ------- */
 .long-copy {
-    line-height: 160%;
+    line-height: 170%;
     width:70%;
     margin-left: 15%;
     margin-bottom: 30px;
@@ -78,7 +78,7 @@ h3 {
 
 .box p { 
     padding: 1%;
-    line-height: 145%;
+    line-height: 140%;
     text-align: justify;
 }
 .box{
@@ -192,6 +192,14 @@ header {
 }
 
 /* ------------------------------------ */
+/* FEATURES */
+/* ------------------------------------ */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------ */
 /* MEALS */
 /* ------------------------------------ */
 
@@ -209,9 +217,19 @@ header {
 .meal-photo {
     margin: 0; 
     width: 100%;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
+    transform: scale(1.35);
+    opacity: 0.6;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }
