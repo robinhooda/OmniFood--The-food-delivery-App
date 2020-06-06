@@ -1,1 +1,1 @@
-# OmniFood--The-food-delivery-App
+# OmniFood- The food delivery App
