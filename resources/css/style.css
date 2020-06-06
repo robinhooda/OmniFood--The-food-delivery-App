@@ -184,9 +184,34 @@ header {
 /* ------------------------------------ */
 /* ICONS */
 /* ------------------------------------ */
-.icons{
+.icons {
     height: 60px;
     width: auto;
     display: block;
     margin-bottom: 10px;
+}
+
+/* ------------------------------------ */
+/* MEALS */
+/* ------------------------------------ */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    margin: 0; 
+    width: 100%;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
