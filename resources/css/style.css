@@ -16,6 +16,15 @@ html {
     text-rendering: optimizeLegibility; 
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ------------------------------------ */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------ */
@@ -204,6 +213,10 @@ header {
 /* MEALS */
 /* ------------------------------------ */
 
+.section-meals {
+    padding: 0;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -231,7 +244,7 @@ header {
 }
 
 .meal-photo img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     opacity: 1;
 }
 
@@ -278,11 +291,6 @@ header {
 .works-step:last-of-type {
     margin-bottom: 80px;
 }
-
-/* .works-step p {
-    display: inline;
-    text-align: justify;
-} */
 
 .btn-app img {
     height: 50px;
