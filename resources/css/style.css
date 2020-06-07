@@ -194,11 +194,21 @@ header {
 /* ------------------------------------ */
 /* ICONS */
 /* ------------------------------------ */
-.icons {
+.icons-big {
     height: 60px;
     width: auto;
     display: block;
     margin-bottom: 10px;
+}
+
+.icon-small {
+    display: nline-block;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    color: #e67e22;
+    /* margin-bottom: 8px; */
 }
 
 /* ------------------------------------ */
@@ -296,4 +306,33 @@ header {
     height: 50px;
     width: auto;
     margin-right: 15px;
+}
+
+/* ------------------------------------ */
+/* CITIES */
+/* ------------------------------------ */
+
+.section-cities img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+    padding-left: 1%;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+    border-bottom: 2px solid #e67e22;
+    text-decoration: none;
+    color: #e67e22;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: inherit;
 }
