@@ -135,6 +135,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -230,6 +231,61 @@ header {
 }
 
 .meal-photo img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 1;
+}
+
+/* ------------------------------------ */
+/* HOW IT WORKS */
+/* ------------------------------------ */
+
+.section-steps {
+    background-color: #e0dddd;
+}
+
+.app-screen {
+    width: 40%;
+    height: auto;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.works-step div {
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    border: 2px solid #cf6d17;
+    border-radius: 50%;
+    font-size: 150%;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+/* .works-step p {
+    display: inline;
+    text-align: justify;
+} */
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
 }
